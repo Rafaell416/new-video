@@ -1,0 +1,9 @@
+{
+  "name": "new-video",
+  "version": "1.0.0",
+  "description": "a video platform made in react",
+  "main": "index.js",
+  "author": "Rafael Villarreal <rvillarreal416@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
