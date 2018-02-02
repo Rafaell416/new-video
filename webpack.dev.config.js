@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    invie: path.resolve(__dirname, 'src/index.js'),
+    'new-video': path.resolve(__dirname, 'index.js'),
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -36,7 +36,7 @@ module.exports = {
           options: {
             limit: 1000000,
             fallback: 'file-loader',
-            name: 'images/[name].[hash].[ext]',
+            name: 'images/[name].[ext]',
           }
         }
       },
